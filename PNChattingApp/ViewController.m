@@ -21,9 +21,9 @@
     
     //created the pubnub object
     PNConfiguration *myConfig = [PNConfiguration configurationForOrigin:@"pubsub.pubnub.com"
-                                                             publishKey:@"pub-c-75025e6e-c3db-458b-9421-d42c13fbb9b5"
-                                                           subscribeKey:@"sub-c-4c443046-e280-11e4-93da-0619f8945a4f"
-                                                              secretKey:@"sec-c-ZjlhZjczZWEtMmI2ZC00Y2E3LWIzZTAtZTBiNWRjZDc0NTk3"];
+                                                             publishKey:@"demo"
+                                                           subscribeKey:@"demo"
+                                                              secretKey:@"demo"];
     [PubNub setConfiguration:myConfig];
     
     [PubNub connect];
